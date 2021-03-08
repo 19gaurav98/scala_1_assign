@@ -8,5 +8,6 @@ object Scala_parser extends App {
     case "reverseprint" => println(resultMap(key))
     case "help" => println(resultMap(key))
     case _ => throw new Exception("Wrong Arguments")
+    
   }
 }
