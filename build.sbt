@@ -8,7 +8,7 @@ lazy val root = project.in(file(".")).aggregate(cli, flags)
 lazy val cli = project.in(file("cli"))
   .settings(
     libraryDependencies += "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % Test,
-    maintainer := "gaurav.guptae@knoldus.com",
+    maintainer := "gaurav.gupta@knoldus.com",
   ).dependsOn(flags)
   .aggregate(flags)
   .enablePlugins(JavaAppPackaging)
