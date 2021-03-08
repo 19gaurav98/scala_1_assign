@@ -22,7 +22,7 @@ class CLIp {
 
         case "-h" | "--help" => return mutable.HashMap("help" -> (new HelpFlag).helpFlag())
 
-        case _ => "Please do not provide more than 2 flags"
+        case _ => "Please do not provide more than 2 flags "
 
       }
     }
